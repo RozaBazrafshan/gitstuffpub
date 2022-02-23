@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+	<script>
+	
+	</script>
+<link href="../../keyboardtest.css" rel="stylesheet">
+<meta charset="UTF-8">
+<title>KeyboardTest</title>
+
+	<style> 
+		h1{text-align: center;
+			color: #004777;
+			font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		
+		} 
+		
+		body{background-color: #9DCFE2;}
+		
+		
+		.grid-container {display: grid;
+		grid-template-columns: auto auto auto auto auto auto auto;
+		justify-content: center;
+			
+		
+		}
+		
+		.grid-item {
+			border: 2px solid #FFFFFF;
+			height: 137px;
+			width: 137px;
+			padding: 20px;
+			background-color: #9DCFE2;
+			color: #9DCEF2;
+			font-size: 70px;
+			text-align: center;		
+		}
+		
+		
+		button{
+			border-color: black;
+			font-size: 40px;
+			font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+			color: #FFFFFF;
+	background-color: #FFFFFF; 
+			border: 20px;
+			cursor: pointer;
+			margin: 10px;
+			transition: 0.55s;
+			height: 120px;
+			width: 120px; 
+			display: inline;
+			
+		}
+		
+		button:hover {background-color: black;
+		}
+		
+		.keys[name="Cnote"]:hover
+		{background-color: #1D1ED6;}
+		
+		.keys[name="Dnote"]:hover
+		{background-color: #065ae5;}
+		
+		.keys[name="Enote"]:hover
+		{background-color: #12d0d9;}
+		
+		.keys[name="Fnote"]:hover
+		{background-color: #06e306;}
+		
+		.keys[name="Gnote"]:hover
+		{background-color: #fefe00;}
+		
+		.keys[name="Anote"]:hover
+		{background-color: #d91ad2;}
+		
+		.keys[name="Bnote"]:hover
+		{background-color: #ed1c24;}
+		
+		.slide {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		
+		audio {width: 11%;
+			padding: 6px;
+			
+		
+		}
+		
+		#player {
+			text-align-last: center;
+		}
+		
+	</style>
+	
+	
+	
+</head>
+
+	<header> 
+	
+	<img src="Coding/Portfolio/rainbow left.png" alt="rainbow slide" width= "543" height= "266" class="slide">  
+		
+	</header>
+	
+<body>
+	
+	
+	
+	
+	<h1>Rainbow Keyboard</h1>
+	
+	<div ID="player">
+	
+	<audio controls src="Coding/Portfolio/music/Notes/C3.mp3"> 
+	
+	</audio><audio controls src="Coding/Portfolio/music/Notes/D3.mp3"> 
+	
+	</audio><audio controls src="Coding/Portfolio/music/Notes/E3.mp3"> 
+	
+	</audio><audio controls src="Coding/Portfolio/music/Notes/F3.mp3"> 
+	
+	</audio><audio controls src="Coding/Portfolio/music/Notes/G3.mp3"> 
+	
+	</audio><audio controls src="Coding/Portfolio/music/Notes/A3.mp3"> 
+	
+	</audio>
+	<audio controls src="Coding/Portfolio/music/Notes/B3.mp3"> 
+	
+	</audio>
+	
+	 </div>
+	
+	
+	<div class="grid-container">
+	<div class="grid-item"><button class="keys" name="Cnote">C</button></div>
+	<div class="grid-item"><button class="keys" name="Dnote">D</button></div>
+	<div class="grid-item">	<button class="keys" name="Enote">E</button></div>
+	<div class="grid-item"><button class="keys" name="Fnote">F</button></div>
+	<div class="grid-item"><button class="keys" name="Gnote">G</button></div>
+	<div class="grid-item"><button class="keys" name="Anote">A</button></div>
+	<div class="grid-item">	<button class="keys" name="Bnote">B</button></div>
+	
+	</div>
+	
+	
+	
+
+	
+	<div>
+	
+	</div>	
+	
+	
+	
+</body>
+	
+	<script src="main.js"></script>
+</html>
+
